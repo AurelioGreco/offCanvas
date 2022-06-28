@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sass/custom.css">
+  <title>Poeti italiani</title>
+</head>
+
+<body style="position:relative" data-bs-spy="scroll" data-bs-target="#navbarCanvas">
+  <nav class="navbar navbar-dark bg-primary fixed-top" id="navbarCanvas">
+    <div class="container text-white">
+      <div>Poeti italiani</div>
+      <i class="bi bi-list" type="button" aria-controls="offcanvasDemo1" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasDemo1"></i>
+    </div>
+  </nav>
+  <main class="container">
+    <section id="uno" class="vh-100 pt-5">
+      <h2 class="dislpay-5 mt-5">DANTE ALIGHIERI (1264 – 1321)</h2>
+      <p class="lead">LPoeti toscani famosi: il più celebre di tutti è Dante, il padre della lingua italiana.
+        Sicuramente la figura più rappresentativa della cultura tricolore, condensata in opere che sono rimaste punti di
+        riferimento anche dopo secoli. La Divina Commedia resta, senza dubbio, l’esempio più alto di poesia italiana.
+        Virgilio e Beatrice accompagnano il poeta nel viaggio allegorico che ha sublimato a livello mondiale l’italiano
+        come lingua. Lo stile dantesco è inconfondibile: nel Dolce Stil Novo prevalgono eleganza e amore per la donna. I
+        suoi endecasillabi gli hanno consegnato il titolo di Somma Poeta, modello per tutti gli artisti successivi. </p>
+    </section>
+    <section id="dos" class="vh-100 pt-5">
+      <h2 class="dislpay-5 mt-5">FRANCESCO PETRARCA (1304 – 1374)</h2>
+      <p class="lead">Non si può prescindere dalla storia letteraria della Firenze trecentesca senza menzionare
+        Petrarca. Il suo stile funge da modello per la versificazione in lingua italiana, uno stile delicato e aulico,
+        che trova il suo massimo compimento nelle sue opere più famose: il Secretum, uno scambio immaginario tra
+        Petrarca e Sant’Agostino scritto in latino, e il Canzoniere, una raccolta di poesie in volgare. </p>
+    </section>
+    <section id="tres" class="vh-100 pt-5">
+      <h2 class="dislpay-5 mt-5">UGO FOSCOLO (1778-1827)</h2>
+      <p class="lead">Dici poeti italiani dell’800 e pensi a Foscolo, esponente del Neoclassicismo, con influenze
+        illuministe e romantiche. Linguaggio elevato in tutta la produzione di Odi e Sonetti, espressione diretta
+        dell’amore per l’isola di Zante, sua terra natia, e di un animo tormentato, in bilico tra passione politica e
+        delusione storica.</p>
+    </section>
+  </main>
+
+  <!-- Offcanvas -->
+  <div class="offcanvas offcanvas-end bg-primary text-white" id="offcanvasDemo1" aria-labelledby="offcanvasDemo1Label">
+    <div class="offcanvas-header">
+      <h2 class="offcanvas-title text-center">Poeti italiani</h2>
+      <h2 type="button" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-circle"></i></h2>
+    </div>
+    <div class="offcanvas-body">
+      <p class="text-center">con Offcanvas</p>
+      <div class="d-grid gap-2" data-bs-dismiss="offcanvas">
+        <a class="btn btn-info text-white" href="#uno">
+          <i class="bi bi-bookmark-check"></i> DANTE ALIGHIERI
+        </a>
+        <a class="btn btn-info text-white" href="#dos">
+          <i class="bi bi-bookmark-heart"></i> FRANCESCO PETRARCA
+        </a>
+        <a class="btn btn-info text-white" href="#tres">
+          <i class="bi bi-bookmark-star"></i> UGO FOSCOLO
+        </a>
+      </div>
+
+    </div>
+  </div>
+  <footer class="footer mt-auto py-3 bg-primary bg-gradient text-light">
+    <section class="container text-center">
+      <div class="row">
+        <div class="col-12">Aurelio<b>Greco</b></div>
+      </div>
+    </section>
+  </footer>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
